@@ -5,26 +5,27 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Álvaro Martins:alvarovinicius7@gmail.com<br>
+ Ezequiel Furtado Mapel:ezequiel.f.mapel@gmail.com<br>
 ...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> Quem nunca esperou dias demais para a montagem de um móvel? ou que possui algum móvel que apresente defeito? Na geração atual, até móveis podem ser comprados pela internet, mas a empresa que o vende, não presta suporte para a montagem e esta tarefa fica totalmente nas mãos do cliente. Com isso, o cliente precisa estar apto para a montagem ou conserto do móvel, tarefa que demanda tempo e certo nível de conhecimento.
  
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
+<!-- Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br> 
 Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.-->
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+> Introduzido o problema, a solução é a capacidade de unir o útil ao agradável, isto é, disponibilizar tal serviço para que o afazer citado fique nas mãos de alguém mais qualificado, ou melhor dizendo, é ser o intermédio entre o montador e o cliente. Para isto, o cliente precisará estar registrado no sistema, no qual irá requerer as seguintes informações: nome, CPF, informações de contato (telefones, e-mail, etc.), data de nascimento e endereço. Do montador, será necessário atributos semelhantes ao do cliente, juntamente com: formas de pagamento e suas especialidades. O cliente, através do sistema, fará uma solicitação que precisará inicialmente das informações sobre: o modelo do objeto, foto do objeto, tipo do objeto, tipo de chamado, data da solicitação, localidade, data de agendamento para a realização do procedimento, informação se cliente ainda possui manual de instrução do objeto e estado da solicitação (será preenchida automaticamente como: em espera, aceita ou concluída). Feito a requisição, o sistema irá notificar alguém com as características necessárias para realizar tal tarefa, utilizando como base as informações de modelo do objeto, tipo do objeto e tipo de solicitação, assim, notificando uma pessoa capacitada. Ao se mostrar apto para o serviço, a determinada pessoa irá passar a precificação ao cliente, que por sua vez, será notificado, onde poderá acessar o perfil do respectivo interessado em seu problema, podendo ver as informações públicas do usuário (nome, telefones, endereço), preço para a tarefa, formas de pagamento, bem como trabalhos já concluídos. Assim, o usuário pode escolher quem mais lhe convém. Aceito o trabalho, a requisição estará agendada e aguardará sua conclusão ou cancelamento que em ambos os casos será uma informação salva para o cliente. Por fim, ao concluir a solicitação, o montador terá a possibilidade de incluir a tarefa em seu portfólio que possuirá fotos (opcional), descrição do trabalho realizado e tempo gasto de serviço.
+
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
