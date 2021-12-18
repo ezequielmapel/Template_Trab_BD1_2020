@@ -29,23 +29,28 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+<!-- Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+ -->
+<!-- Sugestão: https://balsamiq.com/products/mockups/<br> -->
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Alt text](https://raw.githubusercontent.com/ezequielmapel/Template_Trab_BD1_2020/master/images/prototipo_image.PNG "Tela mockup")<br>
+![Arquivo PDF do Protótipo Balsamiq feito para o sistema](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/prototipo.pdf?raw=true "Prototipo")
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
+> O sistema precisa inicialmente dos seguintes relatórios:
+<!-- * Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
 * Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
 * Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
 * Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
 >> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa. -->
+ * Relatório com a quantidade total de pessoas (não montadores) que abriram chamado nos últimos 30 dias.
+ * Relatório com a grupamento de chamados por _status_. Com esse relatório, será possível saber a quantidade de chamados com os estados: em espera, aceita ou concluída.
+ * Relatório que informe para quais objetos há mais abertura de chamado.
+ * Relatório que mostra as especialidades do montados. Deve ser mostrado a descrição da especialidade e a quantidade de montadores que a possuem.
+ * Relatório que trás os montadores que possuem mais chamados concluídos. Deve ser trago as informações como nome, cpf/cnpj, chamados, duração do trabalho, preço.
 
  
  
