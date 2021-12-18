@@ -33,8 +33,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
  -->
 <!-- Sugestão: https://balsamiq.com/products/mockups/<br> -->
 
-![Alt text](https://raw.githubusercontent.com/ezequielmapel/Template_Trab_BD1_2020/master/images/prototipo_image.PNG "Tela mockup")<br>
-![Arquivo PDF do Protótipo Balsamiq feito para o sistema](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/prototipo.pdf?raw=true "Prototipo")
+![Mockup](https://raw.githubusercontent.com/ezequielmapel/Template_Trab_BD1_2020/master/images/prototipo_image.PNG "Tela mockup")<br>
+[Arquivo PDF do Protótipo Balsamiq feito para o sistema](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/prototipo.pdf?raw=true "Prototipo")
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -72,8 +72,9 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
-    
+![Modelo Conceitual](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/images/modelo_conceitual_v3.png?raw=true "Modelo Conceitual")
+ [Modelo Conceitual brModelo](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/trabalho1_v3.brM3?raw=true "Modelo Conceitual brModelo")
+
     
         
     
@@ -93,6 +94,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+ ![Modelo Lógico](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/images/logico_v3.PNG?raw=true "Modelo Lógico")
+ [Modelo Lógico brModelo](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/trabalho1_logico_v3.brM3?raw=true "Modelo Lógico brModelo")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
