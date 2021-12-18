@@ -100,6 +100,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..) 
+  [Criação/Atualização de tabelas](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/creates.sql?raw=true "Criação/Atualização de tabelas")
         
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
