@@ -109,14 +109,17 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-
+        
+   [INSERT das tabelas](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/insert.sql?raw=true "INSERT das tabelas")<br>
+   [DROP + CREATE + INSERT](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/drop_create_insert.sql?raw=true "DROP + CREATE + INSERT")
+        
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
-
+[Consulta das tabelas - Google Colab](https://colab.research.google.com/drive/1JtGcOacV440iXdxW_vtg7Y23LDZownrU?usp=sharing "Google Colab")
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
