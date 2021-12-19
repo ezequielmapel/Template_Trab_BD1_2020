@@ -83,8 +83,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [Descrição dos Dados]
-    (https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/Tabelas%20e%20Atributos%20do%20Modelo%20Conceitual?raw=true "Descrição dos Dados")
+   [Descrição dos Dados](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/Tabelas%20e%20Atributos%20do%20Modelo%20Conceitual?raw=true "Descrição dos Dados")
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
