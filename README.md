@@ -83,12 +83,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    [Descrição dos Dados]
+    (https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/Tabelas%20e%20Atributos%20do%20Modelo%20Conceitual?raw=true "Descrição dos Dados")
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
