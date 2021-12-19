@@ -1,0 +1,63 @@
+(PK = Chave primária)
+
+PESSOA: Armazena informações do Usuário, seja montador ou cliente
+- Num_Cadastro: Número de cadastro, PK da tabela
+- Nome
+- Data_Nasc: Data de Nascimento da Pessoa
+- CPF
+- Score: Armazena o valor do Score da Pessoa
+
+CONTATO: Armazena Informações de Contato
+- Cod_Contato: Código de Contato, PK da tabela
+- Tipo_Contato: Texto que explicíta natureza do contato (email, telefone, celular, etc.)
+- Desc_Contato: Armazena informação de contato, indo de número de telefone até endereço de email.
+
+AutoRel_1: Armazena Avaliações de Usuários por outros usuários
+- Cod_avaliacao: Código da Avaliação, PK da tabela
+- Avaliacao: Armazena o valor da avaliação do usuário
+- Data_Avaliacao: Armazena a data e hora do envio da avaliação
+
+ENDERECO: Armazena informações de endereço dos usuários
+- Cod_Endereco: Código do endereço, PK da tabela
+- Nome_Logradouro
+- Tipo_Logradouro: Natureza do logradouro em questão (rua, alameda, jardim, etc.).
+- Numero
+- Bairro
+- Municipio
+- Estado
+
+MONTADOR: Armazena informações adicionais de usuários 'Montadores'
+- Forma_Pag: Armazena a forma de pagamento aceita pelo montador
+- CNPJ
+
+ESPECIALIDADE: Armazena informações da especialidade de serviço do montador
+- Cod_Especialidade: Código da Especialidade, PK da tabela.
+- Nome
+
+PORTFOLIO: Armazena informações dos porfólios dos montadores
+- Foto
+- Tempo_Servico: Duração de serviço em questão no portfólio
+- Desc: Descrição do de serviço em questão no portfólio
+
+CHAMADO: Armazena Informações dos Chamados abertos no sistema.
+- Cod_chamado: Código do Chamado, PK da tabela
+- Data_Agendamento: Armazena a data e horário agendado para o serviço
+- Data_Horário: Armazena a data e horário da abertura do chamado
+- Preco: Preço do serviço do chamado em questão
+
+STATUS: Armazena possíveis status dos chamados
+- Cod_Estado: Código do estado do chamado, PK da tabela
+- nome: Descrição do status
+
+OBJETO: Armazena informações dos objetos dos chamados
+- Cod_Objeto: Código do objeto, PK da tabela
+- Desc_Objeto: Nome/Modelo do objeto
+- Possui_Manual: Indica se o cliente tem posse do manual do objeto ('S' para Sim, 'N' para Não)
+
+MARCA_OBJETO: Armazena informações de Marcas de Objetos
+- Cod_Marca: Código da Marca, PK da tabela
+- Desc_Marca: Nome da Marca em questão.
+
+TIPO_OBJETO: Armazena informações da natureza dos objetos relacionados aos chamados
+- Cod_tipo_objeto: Código do tipo de objeto, PK da tabela
+- Nome: Descrição da natureza do objeto.
