@@ -148,7 +148,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
      b) Criar minimo 1 envolvendo algum tipo de junção
 
 ># Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
-
+[Consulta das tabelas - Google Colab](https://colab.research.google.com/drive/1JtGcOacV440iXdxW_vtg7Y23LDZownrU?usp=sharing "Google Colab")
 ### 10 RELATÓRIOS E GRÁFICOS
 
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
