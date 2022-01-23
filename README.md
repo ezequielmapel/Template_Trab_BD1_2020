@@ -146,10 +146,15 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
  
  [SELF JOIN + VIEWS](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/e587b6a93a5fb7d1fc00bb6ca9a1a6a8aae0ba8c/arquivos/SelfJoin_Views)
+ 
  [VIEW 1 - Pessoas com Chamados Abertos](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/view1_9-9.png)
+ 
  [VIEW 2 - montadores com chamados abertos](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/view2_9-9.png)
+
  [VIEW 3 - Portfolio de Montadores](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/view3_9-9.png)
+ 
  [VIEW 4 - Endereço de clientes](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/view4_9-9.png)
+ 
  [VIEW 5 - Objetos Cadastrados no Sistema](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/view5_9-9.png)
 
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
