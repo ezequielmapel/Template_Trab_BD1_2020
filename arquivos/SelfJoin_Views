@@ -1,0 +1,37 @@
+-- SELF JOIN
+
+select * from autorel_1 as Ava 
+
+-- VIEWS
+
+  --pessoas com chamados abertos
+  select p.num_cadastro, p.nome, c.cod_chamado, c.tipo_chamado from pessoa p 
+  inner join chamado c 
+  on c.fk_pessoa_num_cadastro = p.num_cadastro 
+
+  --montadores com chamados abertos
+  select m.fk_pessoa_num_cadastro, p.nome, c.cod_chamado ,c.tipo_chamado from montador m 
+  inner join pessoa p 
+  on m.fk_pessoa_num_cadastro = p.num_cadastro 
+  inner join chamado c 
+  on m.fk_pessoa_num_cadastro = c.fk_montador_fk_pessoa_num_cadastro  ;
+
+  --portfolio de montadores
+  select p.*, p2.nome from portfolio p
+  inner join pessoa p2
+  on p.fk_montador_fk_pessoa_num_cadastro = p2.num_cadastro
+  
+  --Endereço de clientes
+  select p.num_cadastro, p.nome, e.* from pessoa p 
+  inner join pessoa_endereco pe 
+  on pe.fk_pessoa_num_cadastro  = p.num_cadastro 
+  inner join endereco e 
+  on e.cod_endereco = pe.fk_endereco_cod_endereco
+  where p.num_cadastro not in (select m.fk_pessoa_num_cadastro from montador m)
+  
+  --objetos cadastrados no sistema
+  select o.cod_objeto,mo.desc_marca ,o.desc_objeto  from objeto o
+  inner join tipo_objeto to2 
+  on to2.cod_tipo_objeto = o.fk_tipo_objeto_cod_tipo_objeto 
+  inner join marca_objeto mo 
+  on mo.cod_marca = o.fk_marca_objeto_cod_marca 
