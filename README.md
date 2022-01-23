@@ -160,6 +160,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
      b) Criar minimo 1 envolvendo algum tipo de junção
+ 
+ [SUBQUERIES](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/subqueries)
 
 ># Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
 [Consulta das tabelas - Google Colab](https://colab.research.google.com/drive/1JtGcOacV440iXdxW_vtg7Y23LDZownrU?usp=sharing "Google Colab")
