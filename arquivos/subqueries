@@ -1,0 +1,19 @@
+--Chamados por município (Exemplo: Serra)
+select * from chamado c
+where fk_pessoa_num_cadastro in 
+	  (select pe.fk_pessoa_num_cadastro from pessoa_endereco pe
+	  where fk_endereco_cod_endereco in 
+	        (select e.cod_endereco from endereco e
+	          where e.municipio = 'Serra'))
+            
+--Receita de Chamados por montador
+select m.fk_pessoa_num_cadastro numcad, p.nome, sum(c.preco) from montador m 
+inner join pessoa p 
+on p.num_cadastro  = m.fk_pessoa_num_cadastro 
+inner join chamado c 
+on c.fk_montador_fk_pessoa_num_cadastro = m.fk_pessoa_num_cadastro 
+group by numcad, nome
+
+--códigos de usuários não funcionários
+select 	p.num_cadastro from pessoa p 
+except (select m.fk_pessoa_num_cadastro from montador m) 
