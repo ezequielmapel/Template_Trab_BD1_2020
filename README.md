@@ -170,7 +170,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível.
-
+ 
+ [Inserts no banco](https://github.com/ezequielmapel/Template_Trab_BD1_2020/blob/master/arquivos/inserts_para_relatorios.sql "Inserts")<br>
  [Relatórios - Google Colab](https://colab.research.google.com/drive/1JtGcOacV440iXdxW_vtg7Y23LDZownrU?usp=sharing "Google Colab")
 
     
